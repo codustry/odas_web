@@ -1,5 +1,5 @@
-# ODAS Studio
-A desktop user interface for the [ODAS](https://github.com/introlab/odas) library
+# Webinterface Sonic Dancer
+based on ODAS project [ODAS](https://github.com/introlab/odas) library
 
 ![ODAS Studio main screen screenshot](/screenshots/main.png)
 

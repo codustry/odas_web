@@ -14,7 +14,7 @@ const localStorage = new LocalStorage(storagePath);
 class AppSettings {
     constructor() {
         if(localStorage.getItem('language') == null)
-            localStorage.setItem('language', 'fr-CA');
+            localStorage.setItem('language', 'en-UK');
 
         if(localStorage.getItem('sample-rate') == null)
             localStorage.setItem('sample-rate', 16000);

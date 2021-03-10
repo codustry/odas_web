@@ -1,3 +1,4 @@
+/*eslint-env es6*/
 const electron = require('electron')
 
 // Module to control application life.
