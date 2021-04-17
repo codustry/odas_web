@@ -19,13 +19,13 @@ function createWindow () {
 
   // Create the browser window.
   odasStudio.mainWindow = new BrowserWindow({
-    width: 1200,
-    height: 800,
+    width: 1024,
+    height: 768,
     webPreferences: {
               webgl: true,
               nodeIntegration : true
     },
-    icon: path.join(__dirname, 'resources/images/introlab_icon.png'),
+    icon: path.join(__dirname, 'resources/images/logo.png'),
     show: false
   })
 

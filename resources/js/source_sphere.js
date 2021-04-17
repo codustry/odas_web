@@ -107,7 +107,7 @@ function init() {
     // Potential sources
     potGroup = new THREE.Group();
     scene.add(potGroup);
-
+    scene.rotation.x  = 1.5708;
     /*
      * Draw sub canvas with axis
      */
@@ -395,7 +395,7 @@ document.addEventListener('clearChart',function(e) {
 var viewFront = function() {
 
     camera.up.set(0,0,1);
-
+    console.log("viewFront");
     camera.position.x = 0;
     camera.position.y = -camOffset;
     camera.position.z = 0;

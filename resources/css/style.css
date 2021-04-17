@@ -14,9 +14,9 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 30px;
-  background-color: #00994d;
+  background-color: #990069;
     border-top-style: solid;
-    border-top: thin solid #00994d;
+    border-top: thin solid #8c0099;
 }
 
 .footer .text-muted, .footer a{
@@ -74,7 +74,7 @@ body {
         top: 50px;
         left: 0px;
 
-        background-color: #dfefe7;
+        background-color: #990069;
         width: 100%;
 
         z-index: 100;
@@ -149,7 +149,7 @@ body {
     }
 
     .graph-row {
-        height: 30%
+        height: 20%
     }
 
     .graph {
@@ -157,7 +157,7 @@ body {
     }
 
     .sphere-row {
-        height: 40%
+        height: 70%
     }
 
     #sphere_heading {
