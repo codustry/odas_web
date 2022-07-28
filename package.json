@@ -4,7 +4,7 @@
   "description": "A desktop GUI for the ODAS library",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron . --no-sandbox",
     "postinstall": "./node_modules/.bin/electron-rebuild"
   },
   "author": "Cedric Godin",

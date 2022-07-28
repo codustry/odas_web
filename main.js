@@ -19,8 +19,8 @@ function createWindow () {
 
   // Create the browser window.
   odasStudio.mainWindow = new BrowserWindow({
-    width: 1024,
-    height: 768,
+    width: 1280,
+    height: 960,
     webPreferences: {
               webgl: true,
               nodeIntegration : true
