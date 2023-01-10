@@ -7,6 +7,7 @@ A desktop user interface for the [ODAS](https://github.com/introlab/odas) librar
 ODAS Studio is a desktop interface built to visually represents data produced by the ODAS algorithm and manage recordings of separated audio sources. ODAS Studio represents audio energy and tracked audio sources on an unit sphere and is a powerful tool when tuning ODAS settings. ODAS Studio also records separated audio as distinct wav files. ODAS Studio is built on the Electron framework and can be run natively on PC, Mac and Linux.
 
 ## Installation
+1. Install `apt install 
 1. Install Node.js v12
 1. Clone the repository
 1. Run _npm install_ in the cloned repository base folder (it contains _main.js_)
